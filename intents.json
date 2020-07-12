@@ -1,0 +1,36 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","hola","heya"],
+         "responses": ["Hello this is lappy, thanks for visiting", "hello, it's me lappy.Good to see you again", "Hi there,I am lappy, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your working hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?","What are the payments mode accepted?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "shop",
+         "patterns": ["What do you sell?", "What are available?", "Whats in the stock?","What can I get here?","What items are in here?","What do you have for me?"],
+         "responses": ["We sell cakes", "Here you will get the best cakes in the city", "Cakes!!! Cakes!!! Cakes!!","Cakes at a cheap price"]
+        },
+        {"tag": "price",
+         "patterns": ["How much does a cake cost?","How much?", "Whats the cost?", "How much for One cake?","What is the price?"],
+         "responses": ["1 cake will cost you around 400", "300-400", "Depends on the cake you want."]
+        }
+]
+}
